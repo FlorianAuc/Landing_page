@@ -1,0 +1,532 @@
+/****Import de la police****/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/****Global*****/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.global{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/***barre de navigation***/
+
+.nav{
+    justify-content: space-around;
+    height: 17vh;
+}
+
+.nav_gauche a{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+    
+
+}
+
+.nav_gauche a span{
+    background-color: rgb(255, 81, 0);
+    border-radius: 50%;
+    padding: 6px 12px;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    margin-right: 13px;
+}
+
+.nav_centre ul li{
+    display: inline;
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+.nav_centre ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.nav_centre ul li:hover a{
+    border: 1px solid rgb(255, 81, 0);
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.3s
+}
+
+.nav_droite input {
+    color: rgb(255, 81, 0); font-size: 17px; 
+    line-height: 20px; padding: 15px; 
+    border-radius: 11px; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    text-decoration: none; 
+    border: 1px solid rgb(255, 81, 0); 
+    display: inline-block;
+    background: white;
+    cursor: pointer;
+    }
+
+.nav_droite input:hover{
+    background: rgb(255, 81, 0);
+    color: white;
+    transition: 1s;
+    }
+
+.nav_droite input:active{
+        background: white;
+        color: rgb(255, 81, 0);
+        transition: 0.5s;
+        }
+
+/***** Header *****/
+.header{
+    height: 64vh;
+    
+}
+
+.header_gauche{
+    width: 40%;
+    padding-left: 20vh;
+}
+
+.header_gauche h1{
+font-size: 6em;
+text-align: left;
+}
+
+.header_gauche p{
+    font-size: 1.6rem;
+    color: rgba(83, 82, 82, 0.514);
+    margin-right: 25px;
+    
+    
+}
+
+.btn_header{
+    padding-top: 5vh;
+}
+
+.btn_header input{
+    color: white; font-size: 23px; 
+    line-height: 20px; padding: 3vh 4vh; 
+    border-radius: 11px; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    text-decoration: none; 
+    border: 1px solid rgb(255, 81, 0); 
+    display: inline-block;
+    background: rgb(255, 81, 0);
+    cursor: pointer;
+}
+
+.btn_header input:hover{
+    background: white;
+    color: rgb(255, 81, 0);
+    transition: 1s;
+ }
+
+.btn_header input:active{
+    background: rgb(255, 81, 0);
+    color: white;
+    transition: 0.5s;
+}
+
+.header_gauche div{
+    display: flex;
+}
+
+.header_gauche div p{
+    font-size: 1.6rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+
+}
+
+.header_droite{
+    width: 50%;
+    text-align: center;
+}
+/******overview******/
+
+#overview{
+    background: rgb(255, 108, 55);
+    position: relative;
+    height: 74.5vh;
+}
+.img_central{
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+/******Sponsort*****/
+
+#sponsort{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sponsort img{
+    width: 155px;
+    height: auto;
+    filter: grayscale(1);
+    opacity: 0.33;
+    padding-top: 40px;
+}
+
+/*** Cloud ***/
+#cloud{
+    margin-top: 150px;
+    display: flex;
+}
+
+.cloud_gauche{
+    margin-left: 12rem;
+}
+
+.cloud_gauche p{
+    color: rgba(83, 82, 82, 0.514);
+    font-size: 1.6rem;
+    width: 60%;
+
+}
+
+.cloud_gauche h2{
+    font-size: 6em;
+    text-align: left;
+    width: 60%;
+}
+
+.cloud_gauche a{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.cloud_gauche a:hover{
+    color: rgb(255, 81, 0);
+}
+
+.cloud_droite{
+    padding-right: 15vh;
+}
+
+/*** Plan ***/
+
+#plan{
+    margin-top: 180px;
+}
+
+#plan h2{
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 150px;
+}
+
+.global_plan{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+    width: 75%;
+    margin: auto;
+}
+
+.plan{
+    border: 1px solid rgba(184, 165, 165, 0.192);
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    padding: 90px 70px;
+    background: white;
+}
+
+.plan h3{
+    margin: 20px;
+    font-size: 1.6rem;
+}
+
+.plan ul{
+    margin-bottom: 0px;
+}
+
+.plan ul li{
+    margin-bottom: 10px;
+    list-style-type: square;
+
+}
+
+.plan p{
+    
+    font-size: 1.6rem;
+}
+
+.plan span{
+    color: rgba(46, 46, 46, 0.349);
+    font-size: 20px;
+
+}
+
+.plan .prix{
+    color: rgba(46, 46, 46, 0.349);
+    font-size: 12px;
+}
+
+.plan input{
+    color: rgb(255, 81, 0); font-size: 17px; 
+    line-height: 20px; 
+    padding: 15px; 
+    border-radius: 11px; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    text-decoration: none; 
+    border: 1px solid rgb(255, 81, 0); 
+    display: inline-block;
+    background: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.plan input:hover{
+    background: rgb(255, 81, 0);
+    color: white;
+    transition: 1s;
+    }
+
+.plan input:active{
+        background: white;
+        color: rgb(255, 81, 0);
+        transition: 0.5s;
+        }
+
+.plan:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.068);
+    transition: 0.5s;
+
+}
+
+/***** Telechargement ******/
+
+#telechargement{
+    position: relative;
+    background: rgb(255, 108, 55) ;
+    height: 85vh;
+}
+
+.tel_millieu{
+    margin-top: 30vh;
+    padding-top: 10vh;
+    color: white;
+    text-align: center;
+}
+
+.tel_millieu h2{
+    font-size: 5rem;
+    padding: 0 20%;
+}
+
+.tel_millieu p{
+    font-size: 1.6rem;
+    padding-top: 10px;
+}
+
+.global_tel input{
+    margin-left: 45%;
+    margin-top: 5vh;
+    color: rgb(255, 81, 0); font-size: 17px; 
+    line-height: 20px; 
+    padding: 3vh 4vh; 
+    border-radius: 11px; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 1.4rem;
+    text-decoration: none; 
+    border: 1px solid rgb(255, 81, 0); 
+    display: inline-block;
+    background: white;
+    cursor: pointer;
+    position: absolute;
+}
+
+.global_tel input:hover{
+    background: rgb(255, 81, 0);
+    color: white;
+    transition: 1s;
+    }
+
+.global_tel input:active{
+        background: white;
+        color: rgb(255, 81, 0);
+        transition: 0.5s;
+        }
+
+.global_tel img{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+/****** Liens ******/
+
+#lien{
+    margin-top: 7vh;
+}
+
+.global_lien{
+    display: flex;
+    justify-content: space-around;
+}
+
+.lien_gauche a span{
+    background-color: rgb(255, 81, 0);
+    border-radius: 50%;
+    padding: 6px 12px;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    margin-right: 13px;
+}
+
+.lien_gauche a{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+}
+
+.liens_links ul{
+    padding-top: 20px;
+    list-style-type : none;
+}
+
+.liens_links li{
+    padding: 5px;
+    font-weight: 400;
+}
+
+.liens_links a{
+    text-decoration: none;
+    color: black;
+}
+
+.liens_links a:hover{
+    color: rgb(255, 81, 0);
+
+}
+
+.liens_legal ul{
+    padding-top: 20px;
+    list-style-type : none;
+}
+
+.liens_legal li{
+    padding: 5px;
+    font-weight: 400;
+}
+
+.liens_legal a{
+    text-decoration: none;
+    color: black;
+}
+
+.liens_legal a:hover{
+    color: rgb(255, 81, 0);
+
+}
+
+.liens_email{
+    text-align: left;
+    
+}
+
+.mail{
+    padding-top: 20px;
+}
+
+.mail p{
+    padding-top: 10px;
+    color: rgba(83, 82, 82, 0.514);
+}
+
+.sous_titre{
+    padding-bottom: 15px;
+}
+
+.subscribe{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px 15px;
+}
+
+.subscribe_b{
+    color: rgb(255, 81, 0); font-size: 17px; 
+    line-height: 20px; 
+    padding: 8px 15px; 
+    border-radius: 11px; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 1.4rem;
+    text-decoration: none; 
+    border: 1px solid rgb(255, 81, 0); 
+    display: inline-block;
+    background: white;
+    cursor: pointer;
+}
+
+.subscribe_b:hover{
+    background: rgb(255, 81, 0);
+    color: white;
+    transition: 1s;
+    }
+
+.subscribe_b:active{
+        background: white;
+        color: rgb(255, 81, 0);
+        transition: 0.5s;
+}
+
+#page_bas{
+    display: flex;
+
+}
+
+#page_bas{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.logo img{
+    width: 25px;
+    filter: grayscale(1);
+    margin: 5px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    
+}
+
+.contact a:hover{
+    color: rgb(255, 81, 0);
+}
+
+hr{
+    opacity: 0.05;
+}
